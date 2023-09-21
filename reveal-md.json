@@ -1,5 +1,5 @@
 {
-    "title": "HOGENT - Cybersecurity",
+    "title": "HOGENT - Slides",
     "listingTemplate": "./index-template.html",
     "separator": "^---$",
     "staticDir": "html",
