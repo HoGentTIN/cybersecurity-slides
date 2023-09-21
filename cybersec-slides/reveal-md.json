@@ -1,0 +1,8 @@
+{
+    "title": "HOGENT - Cybersecurity",
+    "listingTemplate": "./index-template.html",
+    "separator": "^---$",
+    "staticDir": "html",
+    "staticDirs": ["img"],
+    "theme": "./hogent.css"
+}
