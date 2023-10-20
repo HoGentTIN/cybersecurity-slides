@@ -1,8 +1,10 @@
 {
-    "title": "HOGENT - Slides",
+    "glob": "**/!(README).md",
+    "highlightTheme": "vs",
     "listingTemplate": "./index-template.html",
-    "separator": "^---$",
+    "separator": "^\\s*---\\s*$",
     "staticDir": "html",
-    "staticDirs": ["img"],
-    "theme": "./hogent.css"
+    "theme": "theme.css",
+    "title": "HOGENT - Slides",
+    "verticalSeparator": "^\\s*-v-\\s*$"
 }
