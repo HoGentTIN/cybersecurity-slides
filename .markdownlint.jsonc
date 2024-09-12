@@ -1,0 +1,11 @@
+{
+    "line-length": false,
+    "list-marker-space": false,
+    "no-alt-text": false,
+    "no-bare-urls": false,
+    "no-duplicate-heading": false,
+    "no-inline-html": false,
+    "no-trailing-punctuation": false,
+    "ul-indent": false,
+    "single-title": false
+}
