@@ -1,3 +1,3 @@
 # Cybersecurity slides
 
-Based of https://github.com/HoGentTIN/hogent-revealmd .
+Zie https://hogenttin.github.io/cybersecurity-slides/ voor alle slides.
