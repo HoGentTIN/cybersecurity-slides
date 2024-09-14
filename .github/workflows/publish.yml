@@ -19,10 +19,10 @@ jobs:
 #      - uses: DavidAnson/markdownlint-cli2-action@v15
 #        with:
 #          globs: "**/*.md"
-     # - uses: gaurav-nelson/github-action-markdown-link-check@v1
-     #   with:
-     #     config-file: .markdownlinkcheck.json
-     #     use-quiet-mode: "yes"
+#      - uses: gaurav-nelson/github-action-markdown-link-check@v1
+#        with:
+#          config-file: .markdownlinkcheck.json
+#          use-quiet-mode: "yes"
 
   deploy:
     environment:
