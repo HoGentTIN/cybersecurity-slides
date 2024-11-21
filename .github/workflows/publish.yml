@@ -27,7 +27,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install ski-lint
-      - run: ski-lint --check docs/*.md
+      - run: ski-lint --check README.md docs/*.md
       - uses: creyD/prettier_action@v4.3
         with:
           prettier_options: --check .
