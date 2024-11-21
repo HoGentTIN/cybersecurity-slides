@@ -27,7 +27,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install ski-lint
-      - run: ski-lint docs/*.md
+      - run: ski-lint --check docs/*.md
 
   deploy:
     environment:
