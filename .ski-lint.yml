@@ -1,0 +1,7 @@
+accepted_values:
+  - U+A7 # §
+  - U+E8 # è
+  - U+E9 # é
+  - U+EB # ë
+  - U+EF # ï
+  - U+F6 # ö

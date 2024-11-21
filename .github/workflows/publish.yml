@@ -12,9 +12,9 @@ permissions:
   id-token: write
 
 jobs:
-#  lint:
-#    runs-on: ubuntu-latest
-#    steps:
+ lint:
+   runs-on: ubuntu-latest
+   steps:
 #      - uses: actions/checkout@v4
 #      - uses: DavidAnson/markdownlint-cli2-action@v15
 #        with:
@@ -23,6 +23,11 @@ jobs:
 #        with:
 #          config-file: .markdownlinkcheck.json
 #          use-quiet-mode: "yes"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install ski-lint
+      - run: ski-lint docs/*.md
 
   deploy:
     environment:
