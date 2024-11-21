@@ -30,7 +30,7 @@ jobs:
       - run: ski-lint --check docs/*.md
         uses: creyD/prettier_action@v4.3
         with:
-          prettier_options: --check **/*.md
+          prettier_options: --check .
 
   deploy:
     environment:
