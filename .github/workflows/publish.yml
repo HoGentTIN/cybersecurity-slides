@@ -19,10 +19,6 @@ jobs:
       - uses: DavidAnson/markdownlint-cli2-action@v15
         with:
           globs: "**/*.md"
-      - uses: gaurav-nelson/github-action-markdown-link-check@v1
-        with:
-          config-file: .markdownlinkcheck.json
-          use-quiet-mode: "yes"
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -31,6 +27,10 @@ jobs:
       - uses: creyD/prettier_action@v4.3
         with:
           prettier_options: --check .
+      - uses: gaurav-nelson/github-action-markdown-link-check@v1 # Last for performance
+        with:
+          config-file: .markdownlinkcheck.json
+          use-quiet-mode: "yes"
 
   deploy:
     environment:
