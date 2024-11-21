@@ -7,5 +7,5 @@
     "no-inline-html": false,
     "no-trailing-punctuation": false,
     "ul-indent": false,
-    "single-title": false
+    "single-title": false,
 }
